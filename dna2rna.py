@@ -1,5 +1,13 @@
+#!/usr/bin/env python3
+#
+# dna2rna.py - A python program to convert your DNA to RNA
+#
+# Author : Jahidul Hasan Hemal
+#
+# url: https://jhhemal.github.io
+# 
 dna = input("Enter DNA sequence : ").upper()
-rna = dna.maketrans('ACGT','UGCA')
+rna = dna.maketrans('ACGT','UGCA')  # Make a translation for converting DNA to RNA
 a = dna.count('A')
 c = dna.count('C')
 g = dna.count('G')
